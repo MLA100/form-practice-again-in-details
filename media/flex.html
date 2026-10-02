@@ -3,9 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Flex</title>
+    <style>
+        .container div {
+            border: 2px solid tomato;
+            height: 50px;
+            width: 100px;
+            font-size: large;
+        }
+        .container{
+            display: flex;
+        }
+        .box-container{
+            display: flex;
+            gap: 50px;
+        }
+        .box{
+            height: 100px;
+            width: 100px;
+            font-size: larger;
+            border: 3px solid lightcoral;
+        }
+        .user{
+            height: 150px;
+            width: 200px;
+            font-size: x-large;
+           border: 3px solid teal; 
+           margin: 20px;
+           background-color: blueviolet;
+        }
+        .user-container{
+            display: flex;
+            justify-content: center;
+        }
+        .card-container{
+            display: flex;
+            flex-wrap: wrap;
+        }
+       
+    </style>
 </head>
 <body>
-    
+    <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div> <br><br><br>
+    <div class="box-container">
+        <!-- .box{$}*songkha -->
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+    <div class="box">4</div>
+    <div class="box">5</div>
+    <div class="box">6</div>
+    </div><br><br><br>
+    <div class="user-container">
+        <!-- .user{user$}*3 -->
+      <div class="user">user1</div>
+      <div class="user">user2</div>
+      <div class="user">user3</div>
+    </div>
+    <div class="card-container">
+        <div class="user">user1</div>
+        <div class="user">user2</div>
+        <div class="user">user3</div>
+        <div class="user">user4</div>
+        <div class="user">user5</div>
+        <div class="user">user6</div>
+        <div class="user">user7</div>
+        <div class="user">user8</div>
+        <div class="user">user9</div>
+        <div class="user">user10</div>
+        <div class="user">user11</div>
+        <div class="user">user12</div>
+        <div class="user">user13</div>
+        <div class="user">user14</div>
+        <div class="user">user15</div>
+        <div class="user">user16</div>
+        <div class="user">user17</div>
+        <div class="user">user18</div>
+    </div>
 </body>
 </html>
