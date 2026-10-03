@@ -1,0 +1,22 @@
+body{
+    max-width: 1270px;
+    background-color: aqua;
+    margin: 0 auto;
+}
+.hero-container{
+    display: flex;
+    background-color: antiquewhite;
+    margin: 0 auto;
+    padding: 20px;
+    align-items: center;
+}
+.hero-container img{
+    height: 400px;
+    width:100%;
+}
+.hero-container button {
+    background-color: blueviolet;
+    font-size: xx-large;
+    margin: 10px 20px;
+    
+}
